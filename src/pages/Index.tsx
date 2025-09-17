@@ -59,7 +59,7 @@ const Index = () => {
     {
       icon: <Clock className="w-12 h-12 text-primary" />,
       title: "Быстрые поставки",
-      description: "Доставка в течение 24 часов по Москве и МО"
+      description: "Доставка по всей России"
     },
     {
       icon: <Award className="w-12 h-12 text-primary" />,
