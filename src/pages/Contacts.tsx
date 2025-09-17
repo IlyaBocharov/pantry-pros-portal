@@ -20,25 +20,25 @@ const Contacts = () => {
       icon: <Phone className="w-6 h-6 text-primary" />,
       title: "Телефоны",
       items: [
-        "+7 (495) 123-45-67 - Общий отдел",
-        "+7 (495) 123-45-68 - Отдел продаж", 
-        "+7 (495) 123-45-69 - Логистика"
+        "+7 (950) 098-48-58 - Общий отдел",
+        "+7 (950) 098-48-59 - Отдел продаж", 
+        "+7 (950) 098-48-60 - Логистика"
       ]
     },
     {
       icon: <Mail className="w-6 h-6 text-primary" />,
       title: "Email",
       items: [
-        "info@freshdistro.ru - Общие вопросы",
-        "sales@freshdistro.ru - Отдел продаж",
-        "logistics@freshdistro.ru - Логистика"
+        "info@provkus.com - Общие вопросы",
+        "sales@provkus.com - Отдел продаж",
+        "logistics@provkus.com - Логистика"
       ]
     },
     {
       icon: <MapPin className="w-6 h-6 text-primary" />,
       title: "Адрес офиса",
       items: [
-        "109316, г. Москва,", 
+        "664007, г. Иркутск,", 
         "ул. Складская, д. 15, стр. 2",
         "БЦ 'Фуд Центр', этаж 3"
       ]
@@ -60,21 +60,21 @@ const Contacts = () => {
       title: "Отдел продаж",
       description: "Консультации по ассортименту, оформление заказов, коммерческие предложения",
       contacts: ["Иван Петров - менеджер", "Елена Сидорова - руководитель отдела"],
-      phone: "+7 (495) 123-45-68"
+      phone: "+7 (950) 098-48-59"
     },
     {
       icon: <Building className="w-8 h-8 text-primary" />,
       title: "Логистический отдел",
       description: "Планирование доставок, отслеживание грузов, решение вопросов по поставкам",
       contacts: ["Алексей Козлов - логист", "Мария Волкова - диспетчер"],
-      phone: "+7 (495) 123-45-69"
+      phone: "+7 (950) 098-48-60"
     },
     {
       icon: <Headphones className="w-8 h-8 text-primary" />,
       title: "Техподдержка",
       description: "Помощь в работе с системой заказов, решение технических вопросов",
       contacts: ["Дмитрий Орлов - системный администратор"],
-      phone: "+7 (495) 123-45-70"
+      phone: "+7 (950) 098-48-61"
     }
   ];
 
@@ -198,7 +198,7 @@ const Contacts = () => {
                 <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Интерактивная карта</h3>
                 <p className="text-muted-foreground">
-                  г. Москва, ул. Складская, д. 15, стр. 2
+                  г. Иркутск, ул. Складская, д. 15, стр. 2
                 </p>
               </div>
             </div>
@@ -207,19 +207,19 @@ const Contacts = () => {
               <div className="text-center">
                 <h4 className="font-semibold text-foreground mb-2">На автомобиле</h4>
                 <p className="text-sm text-muted-foreground">
-                  15 минут от МКАД, бесплатная парковка для клиентов
+                  20 минут от центра города, бесплатная парковка для клиентов
                 </p>
               </div>
               <div className="text-center">
-                <h4 className="font-semibold text-foreground mb-2">На метро</h4>
+                <h4 className="font-semibold text-foreground mb-2">На автобусе</h4>
                 <p className="text-sm text-muted-foreground">
-                  Станция "Текстильщики", далее 10 минут на автобусе
+                  Остановка "Центральная", маршруты 15, 23, 45
                 </p>
               </div>
               <div className="text-center">
                 <h4 className="font-semibold text-foreground mb-2">Рядом</h4>
                 <p className="text-sm text-muted-foreground">
-                  Продуктовый рынок "Садовод", ТЦ "Москворечье"
+                  ТЦ "Байкал Плаза", продуктовый рынок "Центральный"
                 </p>
               </div>
             </div>

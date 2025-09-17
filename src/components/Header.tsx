@@ -23,10 +23,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-light rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">F</span>
+              <span className="text-primary-foreground font-bold text-lg">П</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">FreshDistro</h1>
+              <h1 className="text-xl font-bold text-foreground">ПроВкус</h1>
               <p className="text-xs text-muted-foreground">Дистрибуция продуктов</p>
             </div>
           </Link>

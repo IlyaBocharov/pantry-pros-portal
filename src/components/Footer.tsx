@@ -11,10 +11,10 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-light rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">F</span>
+                <span className="text-primary-foreground font-bold text-lg">П</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-foreground">FreshDistro</h3>
+                <h3 className="text-lg font-bold text-foreground">ПроВкус</h3>
                 <p className="text-xs text-muted-foreground">Дистрибуция продуктов</p>
               </div>
             </div>
@@ -52,16 +52,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">+7 (495) 123-45-67</span>
+                <span className="text-sm text-muted-foreground">+7 (950) 098-48-58</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">info@freshdistro.ru</span>
+                <span className="text-sm text-muted-foreground">info@provkus.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  г. Москва, ул. Складская, д. 15
+                  г. Иркутск, ул. Складская, д. 15
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-dark mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 FreshDistro. Все права защищены.
+            © 2024 ПроВкус. Все права защищены.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
