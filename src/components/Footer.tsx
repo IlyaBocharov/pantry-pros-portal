@@ -58,12 +58,6 @@ const Footer = () => {
                 <Mail className="w-4 h-4 text-primary" />
                 <span className="text-sm text-muted-foreground">info@provkus.com</span>
               </li>
-              <li className="flex items-start space-x-3">
-                <MapPin className="w-4 h-4 text-primary mt-0.5" />
-                <span className="text-sm text-muted-foreground">
-                  г. Иркутск, ул. Складская, д. 15
-                </span>
-              </li>
               <li className="flex items-center space-x-3">
                 <Clock className="w-4 h-4 text-primary" />
                 <span className="text-sm text-muted-foreground">Пн-Пт: 8:00-18:00</span>
