@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary border-t border-border">
+  return <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -28,21 +26,23 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Навигация</h4>
             <ul className="space-y-2">
-              {[
-                { label: "О компании", href: "/about" },
-                { label: "Каталог продукции", href: "/catalog" },
-                { label: "Партнерам", href: "/partners" },
-                { label: "Контакты", href: "/contacts" },
-              ].map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
+              {[{
+              label: "О компании",
+              href: "/about"
+            }, {
+              label: "Каталог продукции",
+              href: "/catalog"
+            }, {
+              label: "Партнерам",
+              href: "/partners"
+            }, {
+              label: "Контакты",
+              href: "/contacts"
+            }].map(link => <li key={link.href}>
+                  <Link to={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                     {link.label}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -69,27 +69,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Продукция</h4>
             <ul className="space-y-2">
-              {[
-                "Фрукты и овощи",
-                "Ягоды",
-                "Молочные продукты", 
-                "Мясные изделия",
-                "Напитки",
-                "Фасованные товары"
-              ].map((product) => (
-                <li key={product}>
+              {["Фрукты и овощи", "Ягоды", "Молочные продукты", "Мясные изделия", "Напитки", "Фасованные товары"].map(product => <li key={product}>
                   <span className="text-sm text-muted-foreground">{product}</span>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-secondary-dark mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">
-            © 2024 ПроВкус. Все права защищены.
-          </p>
+          <p className="text-sm text-muted-foreground">© 2025 ООО "ПроВкус". Все права защищены.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               Политика конфиденциальности
@@ -100,8 +89,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
